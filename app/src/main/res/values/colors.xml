@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#508dff</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#FAFAFA</color>
+    <color name="colorTurquoise">#a2fff3</color>
 
 </resources>

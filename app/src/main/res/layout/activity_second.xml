@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorTurquoise">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="162dp"
-        android:layout_height="79dp"
+        android:id="@+id/tv_1_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:background="@drawable/fields"
+        android:fontFamily="monospace"
         android:gravity="center"
-        android:text="Second Activity"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Second Activity" />
-</android.support.constraint.ConstraintLayout>
+        android:padding="5sp"
+        android:text="@string/information"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+</LinearLayout>

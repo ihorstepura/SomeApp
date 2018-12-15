@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText editText1;
-    EditText editText2;
+    private EditText editText1;
+    private EditText editText2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         editText1 = findViewById(R.id.et_1_main);
         editText2 = findViewById(R.id.et_2_main);
-
-        //This is my GitHub test
     }
 
     @SuppressLint("ShowToast")
@@ -32,14 +30,16 @@ public class MainActivity extends AppCompatActivity {
         String str_1 = editText1.getText().toString();
         String str_2 = editText2.getText().toString();
 
-        if (str_1.equals(login) & str_2.equals(password)) {
-            //Back stack
-            Intent intent = new Intent(this, SecondActivity.class);
-            startActivity(intent);
+        if (str_1.equals("") || str_2.equals("")) {
+            Toast.makeText(getApplicationContext(), "Some field id empty", Toast.LENGTH_LONG).show();
         } else if (!str_1.equals(login)) {
             Toast.makeText(getApplicationContext(), "Incorrect login", Toast.LENGTH_LONG).show();
         } else if (!str_2.equals(password)) {
             Toast.makeText(getApplicationContext(), "Incorrect password", Toast.LENGTH_LONG).show();
+        } else {
+            //Back stack
+            Intent intent = new Intent(this, SecondActivity.class);
+            startActivity(intent);
         }
     }
 }
