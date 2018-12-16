@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         String str_2 = editText2.getText().toString();
 
         if (str_1.equals("") || str_2.equals("")) {
-            Toast.makeText(getApplicationContext(), "Some field id empty", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Some field is empty", Toast.LENGTH_LONG).show();
         } else if (!str_1.equals(login)) {
             Toast.makeText(getApplicationContext(), "Incorrect login", Toast.LENGTH_LONG).show();
         } else if (!str_2.equals(password)) {
