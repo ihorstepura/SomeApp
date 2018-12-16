@@ -17,6 +17,7 @@ public class SecondActivity extends AppCompatActivity {
     View.OnClickListener btnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+
         }
     };
 
