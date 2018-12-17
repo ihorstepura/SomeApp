@@ -39,6 +39,7 @@
             android:padding="30sp"
             android:text="CV"
             android:textSize="30dp"
+            android:onClick="cvButtonClick"
             android:textColor="@color/colorWhite"/>
 
         <Button
