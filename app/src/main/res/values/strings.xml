@@ -6,4 +6,31 @@
     <string name="authorization">Authorization</string>
     <string name="information">In this app you can find some information about me</string>
     <string name="curriculum_vitae">CURRICULUM VITAE</string>
+    <string name="skills">I am Junior Java Android Developer. I have a good basic Android programing degree.I know the Java programming language theory (including OOP) that I can apply to practice.</string>
+    <string name="info">Personal information</string>
+    <string name="name">Name:</string>
+    <string name="ihor_stepura">Ihor Stepura</string>
+    <string name="address">Address:</string>
+    <string name="legnica">Legnica, Poland</string>
+    <string name="date_of_birth">Date of birth:</string>
+    <string name="_4_july_1994">4 July 1994</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="_576_539_890">576 539 890</string>
+    <string name="_mail">E=mail:</string>
+    <string name="mail_com">igor.stepura96@gmail.com</string>
+    <string name="github">GitHub:</string>
+    <string name="github_com">https://github.com/ihorstepura</string>
+    <string name="education">Education</string>
+    <string name="_2018_now">2018 - now</string>
+    <string name="developer">IT Step - Android Java Developer</string>
+    <string name="my_skills">Skills</string>
+    <string name="languages">Languages</string>
+    <string name="polish">Polish</string>
+    <string name="b2">B2</string>
+    <string name="english">English</string>
+    <string name="b1">B1</string>
+    <string name="ukrainian">Ukrainian</string>
+    <string name="_native">native</string>
+    <string name="russian">Russian</string>
+    <string name="c1">C1</string>
 </resources>

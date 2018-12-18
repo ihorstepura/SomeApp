@@ -68,7 +68,8 @@
             android:padding="30sp"
             android:text="Optimistic calculator"
             android:textSize="30dp"
-            android:textColor="@color/colorWhite"/>
+            android:textColor="@color/colorWhite"
+            android:onClick="calcButtonClick"/>
     </LinearLayout>
 
 </LinearLayout>

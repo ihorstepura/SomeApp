@@ -13,6 +13,7 @@ public class SecondActivity extends AppCompatActivity {
 
     private Button button_1;
     private Button button_2;
+    private Button button_3;
     private TextView view;
 
     @Override
@@ -23,6 +24,7 @@ public class SecondActivity extends AppCompatActivity {
 
         button_1 = findViewById(R.id.btn_1_second);
         button_2 = findViewById(R.id.btn_2_second);
+        button_3 = findViewById(R.id.btn_3_second);
     }
 
 
@@ -30,4 +32,11 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ThirdActivity.class);
         startActivity(intent);
     }
+
+    public void calcButtonClick(View view) {
+        Intent intent1 = new Intent(this, FourthActivity.class);
+        startActivity(intent1);
+    }
+
+
 }
