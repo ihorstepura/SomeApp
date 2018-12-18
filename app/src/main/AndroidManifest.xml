@@ -21,6 +21,8 @@
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".ThirdActivity"
             android:parentActivityName=".SecondActivity"/>
+        <activity android:name=".FourthActivity"
+            android:parentActivityName=".SecondActivity"/>
     </application>
 
 </manifest>
