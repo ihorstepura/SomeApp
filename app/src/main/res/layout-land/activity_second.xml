@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/resume"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_1_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="70sp"
+            android:background="@drawable/button_second"
+            android:fontFamily="monospace"
+            android:padding="10sp"
+            android:text="CV"
+            android:textSize="30dp"
+            android:onClick="cvButtonClick"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/btn_2_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="70sp"
+            android:background="@drawable/button_second"
+            android:fontFamily="monospace"
+            android:padding="10sp"
+            android:text="Gallery"
+            android:textSize="30dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/btn_3_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="70sp"
+            android:background="@drawable/button_second"
+            android:fontFamily="monospace"
+            android:padding="10sp"
+            android:text="Optimistic calculator"
+            android:textSize="30dp"
+            android:textColor="@color/colorWhite"
+            android:onClick="calcButtonClick"/>
+    </LinearLayout>
+
+</LinearLayout>
