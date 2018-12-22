@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class SecondActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button button_1;
     private Button button_2;
@@ -23,12 +23,15 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         button_1 = findViewById(R.id.btn_1_second);
+        button_1.setOnClickListener(this);
         button_2 = findViewById(R.id.btn_2_second);
+        button_2.setOnClickListener(this);
         button_3 = findViewById(R.id.btn_3_second);
+        button_3.setOnClickListener(this);
     }
 
 
-    public void cvButtonClick(View view) {
+   /* public void cvButtonClick(View view) {
         Intent intent = new Intent(this, ThirdActivity.class);
         startActivity(intent);
     }
@@ -36,7 +39,23 @@ public class SecondActivity extends AppCompatActivity {
     public void calcButtonClick(View view) {
         Intent intent1 = new Intent(this, FourthActivity.class);
         startActivity(intent1);
+    }*/
+
+    @Override
+    public void onClick(View view) {
+        Intent intent;
+
+        switch (view.getId()) {
+            case R.id.btn_1_second:
+                intent = new Intent(this, ThirdActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_2_second:
+                break;
+            case R.id.btn_3_second:
+                intent = new Intent(this, FourthActivity.class);
+                startActivity(intent);
+                break;
+        }
     }
-
-
 }

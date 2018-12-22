@@ -39,7 +39,6 @@
             android:padding="30sp"
             android:text="CV"
             android:textSize="30dp"
-            android:onClick="cvButtonClick"
             android:textColor="@color/colorWhite"/>
 
         <Button
@@ -69,7 +68,7 @@
             android:text="Optimistic calculator"
             android:textSize="30dp"
             android:textColor="@color/colorWhite"
-            android:onClick="calcButtonClick"/>
+            />
     </LinearLayout>
 
 </LinearLayout>

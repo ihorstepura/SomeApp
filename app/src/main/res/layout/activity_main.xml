@@ -61,7 +61,7 @@
             android:background="@drawable/fields"
             android:ems="10"
             android:hint="@string/password"
-            android:inputType="textPassword"
+            android:inputType="numberPassword"
             android:padding="10sp"
             android:textColor="@color/colorAccent" />
 
